@@ -1,5 +1,5 @@
 # IntersectionObserver-loader
-Helpful script to lazy-load images.
+Helpful script to lazy-load images, using IntersectionObserver. If IntersectionObserver is not supported the images will load upon DOMContentLoaded.
 
 ## Getting Started
 1. Install the script onto your site.
