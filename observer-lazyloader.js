@@ -4,7 +4,7 @@ function loadTheImgs(e){
 		e.style.backgroundImage = 'url(' + bgImg + ')';
 	}
 	if(e.hasAttribute('data-lzimg')){
-		e.setAttribute('src', lazy.getAttribute('data-lzimg'));
+		e.setAttribute('src', e.getAttribute('data-lzimg'));
 	}
 }
 
